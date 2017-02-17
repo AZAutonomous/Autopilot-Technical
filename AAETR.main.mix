@@ -10,23 +10,7 @@ to output 4.
 Inputs to the mixer come from channel group 0 (vehicle attitude), channels 0
 (roll), 1 (pitch), 2 (yaw) and 3 (thrust) and 4 (flaps) 6 (flaperon).
 
-SYNTAX
-M: <control count>
-O: <-ve scale> <+ve scale> <offset> <lower limit> <upper limit> 
-S: <group> <index> <-ve scale> <+ve scale> <offset> <lower limit> <upper limit> 
-
-Control Group #0 (Flight Control)
-
-0: roll (-1..1)
-1: pitch (-1..1)
-2: yaw (-1..1)
-3: throttle (0..1 normal range, -1..1 for variable pitch / thrust reversers)
-4: flaps (-1..1)
-5: spoilers (-1..1)
-6: airbrakes (-1..1)
-7: landing gear (-1..1)
-
-Aileron mixer (roll)
+Aileron mixer (roll) (Right Then Left)
 ---------------------------------
 
 M: 2

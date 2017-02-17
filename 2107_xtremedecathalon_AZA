@@ -2,16 +2,16 @@
 #
 # @name 25% XTreme Decathalon AZA Edition
 #
-# @type AAEETRFF Plane
+# @type Standard Plane
 #
-# @output MAIN1 aileron right
-# @output MAIN2 aileron left
-# @output MAIN3 elevator right
-# @output MAIN4 elevator left
+# @output MAIN1 right aileron
+# @output MAIN2 left aileron
+# @output MAIN3 right elevator
+# @output MAIN4 left elevator
 # @output MAIN5 throttle
 # @output MAIN6 rudder
-# @output MAIN7 flaps right
-# @output MAIN8 flaps left
+# @output MAIN7 right flaps
+# @output MAIN8 left flaps
 #
 # @output AUX1 feed-through of RC AUX1 channel
 # @output AUX2 feed-through of RC AUX2 channel
@@ -39,7 +39,7 @@ then
     param set FW_W_RMAX 0
 
     # set disarmed value for the ESC
-    param set PWM_DISARMED 1000
+    param set PWM_DISARMED 2000
 fi
 
 set MIXER AAEETRFF
