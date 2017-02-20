@@ -1,0 +1,30 @@
+#!nsh
+#
+# @name Arizona Autonomous Hexarotor
+#
+# @type Hexarotor x
+#
+# @output MAIN1 motor
+# @output MAIN2 motor
+# @output MAIN3 motor
+# @output MAIN4 motor
+# @output MAIN5 motor
+# @output MAIN6 motor
+# @output MAIN7 landing gear control
+#
+# @output AUX1 feed-through of RC AUX1 channel
+# @output AUX2 feed-through of RC AUX2 channel
+# @output AUX3 feed-through of RC AUX3 channel
+# @output AUX4 gimbal roll control
+# @output AUX5 gimbal pitch control
+# @output AUX6 gimbal yaw control
+#
+# @maintainer Arizona Autonomous
+#
+
+sh /etc/init.d/rc.mc_aza_custom
+
+set MIXER hexa_x
+
+# Need to set all 8 channels
+set PWM_OUT 12345678

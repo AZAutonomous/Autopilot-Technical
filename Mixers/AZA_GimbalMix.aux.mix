@@ -1,0 +1,34 @@
+# Gimbal Control for AUX4-AUX6, passthrough for AUX1-AUX3
+
+# AUX1 channel (select RC channel with RC_MAP_AUX1 param)
+M: 1
+O:      10000  10000      0 -10000  10000
+S: 3 5  10000  10000      0 -10000  10000
+
+# AUX2 channel (select RC channel with RC_MAP_AUX2 param)
+M: 1
+O:      10000  10000      0 -10000  10000
+S: 3 6  10000  10000      0 -10000  10000
+
+# AUX3 channel (select RC channel with RC_MAP_AUX3 param)
+M: 1
+O:      10000  10000      0 -10000  10000
+S: 3 7  10000  10000      0 -10000  10000
+
+# Gimbal Control
+# AUX4 Gimbal Roll
+M: 1
+O:      10000  10000      0 -10000  10000
+S: 2 0  10000  10000      0 -10000  10000
+
+# AUX5 Gimbal Pitch
+M: 1
+O:      10000  10000      0 -10000  10000
+S: 2 1  10000  10000      0 -10000  10000
+
+# AUX6 Gimbal Yaw
+M: 1
+O:      10000  10000      0 -10000  10000
+S: 2 2  10000  10000      0 -10000  10000
+
+
