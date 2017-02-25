@@ -1,7 +1,13 @@
 Airframe Configurations Location: /Firmware/ROMFS/px4fmu_common/init.d/
 
-Mixer Configurations Location: /Firmware/ROMFS/px4fmu_common/mixers/
+Mixer 
 
-Vmount Params Location: /Firmware/src/drivers/vmount/
+Configurations Location: /Firmware/ROMFS/px4fmu_common/mixers/
 
-Firmware Build Target: /Firmware/build_px4fmu-v2_default/src/firmware/nuttx/
+Vmount 
+
+Params Location: /Firmware/src/drivers/vmount/
+
+Firmware 
+
+Build Target: /Firmware/build_px4fmu-v2_default/src/firmware/nuttx/
